@@ -1,0 +1,9 @@
+debug:
+  active: true
+service:
+  name: mqtt_receive
+  id: dev
+server:
+  redis_enable: true
+  mysql_enable: false
+  mqtt_enable: true

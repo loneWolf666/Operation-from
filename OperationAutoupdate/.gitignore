@@ -1,0 +1,10 @@
+.idea
+*.pyc
+*.spec
+*.log
+*.zip
+*.log.*
+*.stackdump
+*.dynamic.json
+*.lock
+*venv*

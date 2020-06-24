@@ -1,0 +1,77 @@
+#redis_server:
+#  host: 10.10.11.150
+#  port: 6379
+#  db: 0
+#  password: !!str 123456
+#mysql_server:
+#  host: 10.10.11.150
+#  port: 3306
+#  user: root
+#  password: !!str 123456
+#  database: ~
+#  charset: utf8
+#mqtt_server:
+#  client_id: ~
+#  host: 192.168.120.116
+#  port: 1883
+#  keep_alive: 60
+#  bind_address: !!str
+#  username: ~
+#  password: ~
+
+
+#redis_server:
+#  host: 192.168.120.116
+#  port: 6379
+#  db: 0
+#  password: ~
+#mysql_server:
+#  host: 192.168.120.116
+#  port: 3306
+#  user: root
+#  password: !!str 123456
+#  database: ~
+#  charset: utf8
+#mqtt_server:
+#  client_id: ~
+#  host: 192.168.120.116
+#  port: 1883
+#  keep_alive: 60
+#  bind_address: !!str
+#  username: ~
+#  password: ~
+
+
+
+
+redis_server:
+  host: 127.0.0.1
+  port: 6379
+  db: 0
+  password: ~
+mysql_server:
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  password: !!str 123456
+  database: ~
+  charset: utf8
+#mqtt_server:
+#  client_id: ~
+#  host: 192.168.120.116
+#  port: 1883
+#  keep_alive: 60
+#  bind_address: !!str
+#  username: ~
+#  password: ~
+
+mqtt_server:
+  bind_address: !!str
+  client_id: null
+  host: mqtt.tapedyy.com
+  keep_alive: 60
+  password: !!str wangchao123
+  port: 1883
+  username: !!str wangchao
+  clean_session: true
+

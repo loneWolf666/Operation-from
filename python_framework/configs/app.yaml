@@ -1,0 +1,9 @@
+debug:
+  active: true
+service:
+  name: framework
+  id: dev
+server:
+  redis_enable: true
+  mysql_enable: true
+  mqtt_enable: true

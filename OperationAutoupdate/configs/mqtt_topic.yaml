@@ -1,0 +1,20 @@
+subscribe_topic:
+  topic1:
+    topic: !!str devfilmhouse/test
+    qos: 0
+
+  topic2:
+    topic: !!str $queue/filmhouse/+/test/+
+    qos: 0
+
+
+
+
+
+update_list:
+  from_list: !!str Queue:update:list
+  to_list: !!str Queue:update:list:to
+
+update_topic:
+  public_topic: !!str devfilmhouse/test
+  receive_topic: !!str devfilmhouse/test

@@ -1,0 +1,21 @@
+{
+	"api": "1.0",
+	"timestamp": "20200527170030",
+	"cmd": "update",
+	"id": "123456",
+	"dn": "DPL202005B00001",
+	"data": {
+		"opkg_name": "spl-lcd-scripts",
+		"opkg_url": "http://firmware.splnet.cc/files/splws-s100/spl-lcd-scripts_1.0_rtd1295.ipk",
+		"md5": "d6586c5922fb1bbd5b08fb183149ebae",
+		"ver": "2.0",
+		"script_preupdate": {
+			"url": "",
+			"md5": ""
+		},
+		"script_postupdate": {
+			"url": "http://firmware.splnet.cc/files/splws-s100/spl-lcd-scripts_1.0_rtd1295pb.ipk",
+			"md5": "D60DF961B7DCC467D049A935413167DB"
+		}
+	}
+}
