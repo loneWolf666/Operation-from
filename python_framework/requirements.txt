@@ -5,7 +5,7 @@ paho-mqtt==1.5.0
 py-configfile==0.0.4
 py-configs-registry==0.0.2
 PyMySQL==0.9.3
-PyYAML==5.3.1
+PyYAML==5.4
 redis==3.2.0
 six==1.14.0
 
